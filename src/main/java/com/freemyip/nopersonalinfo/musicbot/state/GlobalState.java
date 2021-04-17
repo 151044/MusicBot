@@ -1,7 +1,7 @@
 package com.freemyip.nopersonalinfo.musicbot.state;
 
 import com.freemyip.nopersonalinfo.musicbot.commands.Commands;
-import com.freemyip.nopersonalinfo.musicbot.VoiceHandler;
+import com.freemyip.nopersonalinfo.musicbot.handlers.VoiceHandler;
 import com.sedmelluq.discord.lavaplayer.player.AudioPlayerManager;
 import com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager;
 import com.sedmelluq.discord.lavaplayer.source.AudioSourceManagers;

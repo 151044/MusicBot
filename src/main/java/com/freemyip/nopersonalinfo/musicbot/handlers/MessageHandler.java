@@ -1,4 +1,4 @@
-package com.freemyip.nopersonalinfo.musicbot;
+package com.freemyip.nopersonalinfo.musicbot.handlers;
 
 import com.freemyip.nopersonalinfo.musicbot.commands.Command;
 import com.freemyip.nopersonalinfo.musicbot.commands.Commands;

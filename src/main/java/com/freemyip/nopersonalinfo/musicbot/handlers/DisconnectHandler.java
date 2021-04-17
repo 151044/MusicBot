@@ -1,8 +1,8 @@
-package com.freemyip.nopersonalinfo.musicbot;
+package com.freemyip.nopersonalinfo.musicbot.handlers;
 
+import com.freemyip.nopersonalinfo.musicbot.Main;
 import com.freemyip.nopersonalinfo.musicbot.state.GlobalState;
 import net.dv8tion.jda.api.entities.Guild;
-import net.dv8tion.jda.api.events.guild.voice.GuildVoiceJoinEvent;
 import net.dv8tion.jda.api.events.guild.voice.GuildVoiceLeaveEvent;
 import net.dv8tion.jda.api.events.guild.voice.GuildVoiceSelfDeafenEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;

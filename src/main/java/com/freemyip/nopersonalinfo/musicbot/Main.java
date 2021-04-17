@@ -8,7 +8,7 @@ import javax.security.auth.login.LoginException;
 public class Main {
     private static JDA jda;
     public static void main(String[] args) throws LoginException, InterruptedException {
-        jda = JDABuilder.createDefault("NjkyNjUyOTY2OTA1MzgwOTI1.Xo1Jtg.N2DAwX-xKKnLGqUZwsmuKKNzJS4").addEventListeners(new MessageHandler(), new DisconnectHandler()).build();
+        jda = JDABuilder.createDefault(System.getenv("objectToken")).addEventListeners(new MessageHandler(), new DisconnectHandler()).build();
         jda.awaitReady();
     }
 
